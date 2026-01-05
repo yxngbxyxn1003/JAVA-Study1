@@ -22,13 +22,13 @@ public class If5 {
 
 
         if (age <=10 && price >= 10000) {
-            System.out.println("가격은" + result2 + "입니다.");
+            System.out.println("가격은 " + result2 + " 입니다.");
         } else if (age <=10) {
-            System.out.println("가격은" + result1 + "입니다.");
+            System.out.println("가격은 " + result1 + " 입니다.");
         } else if(price >= 10000) {
-            System.out.println("가격은" + result1 + "입니다.");
+            System.out.println("가격은 " + result1 + " 입니다.");
         } else {
-            System.out.println("가격은" + price + "입니다.");
+            System.out.println("가격은 " + price + " 입니다.");
         }
     }
 }
