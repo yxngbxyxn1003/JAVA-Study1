@@ -13,5 +13,9 @@ public class Scanner1 {
         System.out.println("정수를 입력하세요. : ");
         int Intvalue  = scanner.nextInt();
         System.out.println("입력한 숫자 : " + Intvalue);
+
+        System.out.println("실수를 입력하세요. : ");
+        double Doublevalue = scanner.nextDouble();
+        System.out.println("입력한 실수 : " + Doublevalue);
     }
 }
